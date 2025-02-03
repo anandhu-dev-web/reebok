@@ -123,6 +123,7 @@ header{
     transform: scale(105%);
     transition: all 1s ease;
 }
+
 .hero-image-wrapper img{
     transform: scale(100%);
     transition: all 1s ease;
@@ -139,4 +140,72 @@ header{
     transform: translate(-50%, -50%);
     color: white;
     font-size: 30px;
+}
+.content-text p{
+    font-size: 12px;
+    font-family: 'Neue Plak-Version', Arial, sans-serif;
+    font-weight: 600;
+}
+.footer-top p{
+    font-size: 12px;
+}
+.footer-top li{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-top a{
+    color: rgb(0, 0, 0);
+    position: relative;
+    text-decoration: none;
+}
+.footer-top a::after{
+    position: absolute;
+    content: '';
+    top: 95%;
+    left:0%;
+    width: 0%;
+    height: .5px;
+    background-color: rgb(0, 0, 0);
+    transition: all 0.3s ease;
+}
+
+.footer-top a:hover::after{
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.contact-div input{
+    border: none;
+    border-radius: 0;
+    color: transparent;
+    width: 100%;
+    color: black;
+}
+.contact-div{
+    border-bottom: solid 1px black;
+}
+
+.footer-main span{
+    font-size: 10px;
+}
+.footer-main h1{
+    font-size: 50px;
+}
+.footer-main span a{
+    color: black;
+}
+
+.footer-main span a:hover{
+    color: rgb(0, 0, 0);text-decoration: none;
+}
+.footer-main p{
+    font-size: 14px;
+}
+.footer-copy-right a{
+    color: black;
+    text-decoration: none;
+}
+.footer-copy-right span{
+    font-size: 12px;
 }
